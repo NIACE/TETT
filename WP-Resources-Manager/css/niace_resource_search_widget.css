@@ -1,0 +1,38 @@
+/* 
+    Document   : niace_resource_search_widget
+    Created on : 16-Feb-2014, 15:12:55
+    Author     : adam.sargant
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.childgrouping { 
+    display: none;
+}
+fieldset {
+    border: 1px solid;
+    padding:3px;
+    
+}
+label.formfield{
+    display: block; 
+    float:left;
+    width:160px;
+}
+label.resourcetype{
+    display: block; 
+    float:left;
+    width:160px;
+}
+div.mainfields{
+    float:left;
+    width:67%;
+}
+div.tagfields{
+    float:left;
+    width:33%;
+}
+
+
+
+

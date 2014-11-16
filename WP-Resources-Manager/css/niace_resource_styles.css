@@ -1,0 +1,131 @@
+/* 
+    Document   : niace_resource_search_widget
+    Created on : 16-Feb-2014, 15:12:55
+    Author     : adam.sargant
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.childgrouping { 
+    display: none;
+}
+fieldset.catform {
+    border: 1px solid;
+    padding:3px;
+    
+}
+label.formfield{
+    display: block; 
+    float:left;
+    width:160px;
+}
+label.resourcetype{
+    display: block; 
+    float:left;
+    width:160px;
+}
+div.mainfields{
+    float:left;
+    width:67%;
+}
+div.tagfields{
+    float:left;
+    /*width:33%;*/
+}
+div.resource_content{
+    float:left;
+    width:67%;
+}
+div.resource_data{
+    float:left;
+   /* width:33%; */
+}
+
+div.resources_panel {
+    float:left;
+    width:49%;
+}
+div.resources_panel.panel2 {
+    margin-left: 4px;
+}
+
+div.niace_resource_rating_container{
+    float:left;
+    width:20%;
+	font-size: 13px;
+color: #000;
+font-weight: bold;
+}
+div.niace_resource_archive_container{
+    float:left;
+    width:80%;
+}
+div.resource_rating_main_container{
+    padding-right:16px;
+}
+
+div.resource_rating_display{
+    float:left;
+    width:16px;
+    height: 16px;
+}
+div.resource_rating_submit{
+    float:left;
+    width:16px;
+    height: 16px;
+}
+div.resource_rating_submit.inactive{
+    background: url(../images/star_16_white.png) no-repeat left top;
+}
+div.resource_rating_submit.active{
+    background: url(../images/star_16_blue.png) no-repeat left top;
+}
+div.resource_rating_display.full{
+    background: url(../images/star_16_blue.png) no-repeat left top;
+}
+div.resource_rating_display.empty{
+    background: url(../images/star_16_white.png) no-repeat left top;
+}
+div.resource_rating_display.half{
+    background: url(../images/star_16_blue_half.png) no-repeat left top;
+}
+img.niace_resource_image{
+    height:auto; width:auto; max-width:200px; max-height:200px;
+}
+
+/* kevin@joinitup.co.uk added these */
+h3.widget-title:hover {
+    text-decoration: underline;
+}
+.entry-title a:hover {
+    text-decoration: underline;
+}
+fieldset legend:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.niace_searchcloud_container {
+    clear: both;
+}
+.entry-header .entry-title a:hover {
+    text-decoration: underline;
+}
+.entry-content .panels_container p {
+    margin-bottom: 0px;
+}
+.entry-content .panels_container h3 {
+    margin: 10px 0 0 0;
+}
+#create-personal-cloud {
+    -webkit-border-radius:20px;
+    border-radius: 20px;
+    padding: 12px;
+    font-weight: bold;
+    font-size: 1.2em;
+    clear: both;
+    float: right;
+}
+#personalised-cloud {
+    color: #000;
+    background-color: #e1e000;
+}
