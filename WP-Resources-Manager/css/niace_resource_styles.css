@@ -128,4 +128,5 @@ fieldset legend:hover {
 #personalised-cloud {
     color: #000;
     background-color: #e1e000;
+    cursor: pointer;
 }
